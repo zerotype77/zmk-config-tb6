@@ -21,7 +21,7 @@
 //                         | ALT | LWR | SPC | RSE  | ALT |
                         bindings = <
    &kp N1   &kp N2 &kp N3
-   &kp LCTRL &kp A &kp S &mo 3
+   &kp T &kp S &mo 3
                         >;
                 };
 
@@ -32,8 +32,8 @@
 // |    | ESC | GUI | ALT | CAPS|  "  |   | HOME| END | PGUP| PGDN| PRSC| SHFT(SPACE) |
 //                       |     |     | RET | ADJ |     |
                         bindings = <
-   &trans &kp EXCL  &kp AT      &kp HASH
-   &trans &kp UNDER &kp PLUS    &kp LBRC
+   &trans &kp EXCL  &kp AT  
+   &trans &kp UNDER &kp PLUS
                         >;
                 };
 
