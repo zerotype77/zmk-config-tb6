@@ -10,7 +10,7 @@
 */
 
 
-&physical_layouts{
+/{
     gtips_reviung41_layout: gtips_reviung41_layout {
         compatible = "zmk,physical-layout";
         display-name = "reviung41";
@@ -36,7 +36,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &gtips_reviung41_layout;
-
 
 /*
         zmk,matrix-transform = &default_transform;
