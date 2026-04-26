@@ -1,0 +1,17 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    gtips_reviung41_layout: gtips_reviung41_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "reviung41";
+
+        keys
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100    0  100       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            ;
+    };
+};
