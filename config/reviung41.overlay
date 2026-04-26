@@ -61,5 +61,5 @@ RC(1,0) RC(1,1) RC(1,2)
  *           , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
  *           ;
 */
-    };
+    
 };
